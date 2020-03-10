@@ -8,54 +8,60 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"linkedin.com/in/benjamin-calvert-62978438/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/BenHCalvert",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I recently completed University of Denver's Full Stack Web Development Coding Bootcamp. I also work as a middle school assistant principal. This summer, I'm moving to Boise, ID and am currently in search of a job to leverage and continue developing my technical skills.",
+    "address":"Golden, CO & Boise, ID",
+    "website":"https://github.com/BenHCalvert",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Denver",
+        "specialization":"Coding Bootcamp, Full-Stack Web Development",
+        "MonthOfPassing":"Mar",
+        "YearOfPassing":"2020"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"New York University",
+        "specialization":"Bachelor of Arts: Economics, Minor: Italian",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2013"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
+        "CompanyName":"STRIVE Prep - Sunnyside",
+        "specialization":"Assistant Principal",
+        "MonthOfLeaving":"Jun",
+        "YearOfLeaving":"2020",
+        "MonthofStarting":"Jul",
+        "YearOfStarting":"2018",
         "Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Deer Hill Expeditions",
+        "specialization":"Basecamp Manager",
+        "MonthOfLeaving":"Jul",
         "YearOfLeaving":"2018",
+        "MonthofStarting":"Jul",
+        "YearOfStarting":"2018",
         "Achievements":"Some Achievements"
-      }
+      },
+      {
+        "CompanyName":"KIPP New Jersey",
+        "specialization":"School Start-up Project Manager, Head of Student Activities & Operations Manager",
+        "MonthOfLeaving":"Aug",
+        "YearOfLeaving":"2016",
+        "MonthofStarting":"Feb",
+        "YearOfStarting":"2014",
+        "Achievements":"Some Achievements"
+      },
     ],
     "skillsDescription":"Your skills here",
     "skills":[
