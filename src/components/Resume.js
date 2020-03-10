@@ -43,7 +43,7 @@ export default  class Resume extends Component {
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <span>&bull;</span> <em className="date">{item.MonthofStarting} {item.YearOfStarting} - {item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
                           {item.Achievements}
                           </p>
@@ -70,7 +70,7 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				{/* <div className="bars"> */}
 
    				   <ul className="skills">
                 {
@@ -86,7 +86,7 @@ export default  class Resume extends Component {
 
    					</ul>
 
-   				</div>
+   				{/* </div> */}
 
    			</div>
 
