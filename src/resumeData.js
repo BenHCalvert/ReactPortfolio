@@ -56,30 +56,51 @@ let resumeData = {
       {
         "CompanyName":"KIPP New Jersey",
         "specialization":"School Start-up Project Manager, Head of Student Activities & Operations Manager",
-        "MonthOfLeaving":"Aug",
-        "YearOfLeaving":"2016",
+        "MonthOfLeaving":"Nov",
+        "YearOfLeaving":"2017",
         "MonthofStarting":"Feb",
         "YearOfStarting":"2014",
         "Achievements":"Some Achievements"
-      },
+      }
     ],
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
-      },
-      {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Express.JS"
+      },
+      {
+        "skillname":"Git"
+      },
+      {
+        "skillname":"Github"
+      },
+      {
+        "skillname":"HTML"
+      },
+      {
+        "skillname":"JavaScript"
+      },
+      {
+        "skillname":"MongoDB"
+      },
+      {
+        "skillname":"MySql"
+      },
+      {
+        "skillname":"Node.js"
+      },
+      {
+        "skillname":"React"
       }
     ],
     "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"../public/images/portfolio/coffee.jpg."
       },
       {
         "name":"project2",
@@ -95,16 +116,6 @@ let resumeData = {
         "name":"project4",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
       }
     ]
   }
