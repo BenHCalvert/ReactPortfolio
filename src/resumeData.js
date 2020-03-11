@@ -63,7 +63,7 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Ben Calvert's technical skills",
     "skills":[
       {
         "skillname":"CSS"
@@ -98,8 +98,8 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
+        "name":"Habit App",
+        "description":"An app to help users build habits by tracking their progress towards rewards.",
         "imgurl":"../public/images/portfolio/coffee.jpg."
       },
       {
