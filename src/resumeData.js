@@ -3,7 +3,6 @@ let resumeData = {
     "name": "Ben Calvert",
     "role": "full stack web developer and middle school assistant principal",
     "linkedinId":"https://www.linkedin.com/in/benjamin-calvert-62978438/",
-    "skypeid": "Your skypeid",
     "roleDescription": "",
     "socialLinks":[
         {
@@ -18,7 +17,7 @@ let resumeData = {
         }
       ],
     "aboutme":"I recently completed University of Denver's Full Stack Web Development Coding Bootcamp. I also work as a middle school assistant principal. This summer, I'm moving to Boise, ID and am currently in search of a job to leverage and continue developing my technical skills.",
-    "address":"Golden, CO & Boise, ID",
+    "address":"Golden CO | Boise ID",
     "website":"https://github.com/BenHCalvert",
     "education":[
       {
