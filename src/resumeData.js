@@ -100,31 +100,31 @@ let resumeData = {
       "name": "Habit App",
       "description": "An app to help users build habits by tracking their progress towards rewards. Built with React.",
       "projurl": "https://habit-app-2020.herokuapp.com/",
-      "imgurl": "../../public/images/portfolio/starChart.png"
+      "imgurl": "images/portfolio/starChart.png"
     },
     {
       "name": "Sports Manager",
       "description": "An app to manage schools sports teams, their rosters and schedules.",
       "projurl": "https://pacific-peak-82509.herokuapp.com/",
-      "imgurl": "images/portfolio/project.jpg"
+      "imgurl": "images/portfolio/SportsManager.png"
     },
     {
       "name": "Hike & Dinner",
       "description": "An app that allows users to find a nearby hike and a place to grab a bite to eat close to the trailhead",
       "projurl": "https://benhcalvert.github.io/Group-Project/",
-      "imgurl": "images/portfolio/project2.png"
+      "imgurl": "images/portfolio/HikeandDinner.png"
     },
     {
       "name": "Weather Dashboard",
       "description": "A weather dashboard written in HTML and JavaScrpit",
       "projurl": "https://benhcalvert.github.io/HW6_Weather/",
-      "imgurl": "images/portfolio/phone.jpg"
+      "imgurl": "images/portfolio/WeatherDashboard.png"
     },
     {
       "name": "PWA Budget Tracker",
       "description": "A progressive web app budget tracker with offline functionality.",
       "projurl": "https://aqueous-island-57111.herokuapp.com/",
-      "imgurl": "images/portfolio/phone.jpg"
+      "imgurl": "images/portfolio/budgetPWA.png"
     }
   ]
 }
