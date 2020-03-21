@@ -7,7 +7,7 @@ let resumeData = {
   "socialLinks": [
     {
       "name": "linkedin",
-      "url": "linkedin.com/in/benjamin-calvert-62978438/",
+      "url": "https://linkedin.com/in/benjamin-calvert-62978438/",
       "className": "fa fa-linkedin"
     },
     {
