@@ -5,10 +5,10 @@ export default class Porfolio extends Component {
     console.log(resumeData);
     return (
       <section id="portfolio">
-      <div className="row">
+      <div className="row"> 
         <div className="twelve columns collapsed">
           <h1>Here is a selection of my work:</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <div id="portfolio-wrapper" className="bgrid-halves cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
