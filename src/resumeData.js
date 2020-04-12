@@ -2,7 +2,7 @@ let resumeData = {
   "imagebaseurl": "https://github.com/BenHCalvert",
   "name": "Ben Calvert",
   "role": "full stack web developer and middle school assistant principal",
-  "linkedinId": "https://www.linkedin.com/in/benjamin-calvert-62978438/",
+  "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
   "roleDescription": "",
   "socialLinks": [
     {
@@ -16,7 +16,7 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "I recently completed University of Denver's Full Stack Web Development Coding Bootcamp. I also work as a middle school assistant principal. This summer, I'm moving to Boise, ID and am currently in search of a job to leverage and continue developing my technical skills.",
+  "aboutme": "I am a full stack web developer and a middle school assistant principal. This summer, I'm moving to Boise, ID and am currently in search of a job as a developer.",
   "address": "Golden CO | Boise ID",
   "website": "https://github.com/BenHCalvert",
   "education": [
@@ -41,7 +41,7 @@ let resumeData = {
       "YearOfLeaving": "2020",
       "MonthofStarting": "Jul",
       "YearOfStarting": "2018",
-      "Achievements": "Some Achievements"
+      "Achievements": "Co-Led a successful turn-around for a failing middle school (grades 6-8), marked by a 16-34% increase in student achievement on semester 1 Language Arts midterms, a 12% increase in positive responses from staff on the Workplace Quality Survey and a 75% decrease in student suspensions. Led a team of 6 employees and   oversaw scheduling and day-to-day events and activities for 33 teachers & staff"
     },
     {
       "CompanyName": "Deer Hill Expeditions",
@@ -50,7 +50,7 @@ let resumeData = {
       "YearOfLeaving": "2018",
       "MonthofStarting": "Jul",
       "YearOfStarting": "2018",
-      "Achievements": "Some Achievements"
+      "Achievements": "Managed 12 basecamp staff members and held  responsibility for trip logistics, facilities, and equipment. Served as primary point of contact for emergency situations in the field"
     },
     {
       "CompanyName": "KIPP New Jersey",
@@ -59,11 +59,14 @@ let resumeData = {
       "YearOfLeaving": "2017",
       "MonthofStarting": "Feb",
       "YearOfStarting": "2014",
-      "Achievements": "Some Achievements"
+      "Achievements": "Created and implemented facilities, food service, IT and other operational systems. Supervised facility and construction operations and created KIPP New Jersey’s AmeriCorps teaching residency "
     }
   ],
   "skillsDescription": "Ben Calvert's technical skills",
   "skills": [
+    {
+      "skillname": "Bootstrap"
+    },
     {
       "skillname": "CSS"
     },
@@ -83,6 +86,9 @@ let resumeData = {
       "skillname": "JavaScript"
     },
     {
+      "skillname": "Materialize"
+    },
+    {
       "skillname": "MongoDB"
     },
     {
@@ -90,6 +96,9 @@ let resumeData = {
     },
     {
       "skillname": "Node.js"
+    },
+    {
+      "skillname": "Progressive Web Apps"
     },
     {
       "skillname": "React"

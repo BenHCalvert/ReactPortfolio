@@ -7,19 +7,19 @@ export default class ContactMe extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me on LinkedIn
+              Feel free to contact me on <a href={resumeData.linkedinId} target="blank"> LinkedIn</a>.
               </p>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
                 <h4>
-                  <a href="{resumeData.linkedinId}"> LinkedIn</a>                  
+                  <a href={resumeData.linkedinId} target="blank"> LinkedIn</a>                  
                 </h4>
               </div>
             </aside>
-          </div>
+          </div> */}
         </section>
         );
   }
