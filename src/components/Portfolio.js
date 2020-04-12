@@ -5,33 +5,33 @@ export default class Porfolio extends Component {
     console.log(resumeData);
     return (
       <section id="portfolio">
-      <div className="row"> 
-        <div className="twelve columns collapsed">
-          <h1>Here is a selection of my work:</h1>
-          <div id="portfolio-wrapper" className="bgrid-halves cf">
-          {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${process.env.PUBLIC_URL}/${item.imgurl}`} className="item-img" alt="portfolio"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1>Here is a selection of my work:</h1>
+            <div id="portfolio-wrapper" className="bgrid-halves cf">
+              {
+                resumeData.portfolio && resumeData.portfolio.map((item) => {
+                  return (
+                    <div className="columns portfolio-item">
+                      <a href={item.projurl} target="blank">
+                        <div className="item-wrap">
+                          <img src={`${process.env.PUBLIC_URL}/${item.imgurl}`} className="item-img" alt="portfolio" />
+                          <div className="overlay">
+                            <div className="portfolio-item-meta">
+                              <h5>{item.name}</h5>
+                              <p>{item.description}</p>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              )
-            })
-          }
+                      </a>
+                    </div>
+                  )
+                })
+              }
+            </div>
           </div>
         </div>
-      </div>
-  </section>
-        );
+      </section>
+    );
   }
 }

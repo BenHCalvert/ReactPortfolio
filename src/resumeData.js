@@ -22,7 +22,7 @@ let resumeData = {
   "education": [
     {
       "UniversityName": "University of Denver",
-      "specialization": "Coding Bootcamp, Full-Stack Web Development",
+      "specialization": "Certificate, Full-Stack Web Development",
       "MonthOfPassing": "Mar",
       "YearOfPassing": "2020"
     },
