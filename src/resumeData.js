@@ -109,32 +109,44 @@ let resumeData = {
       "name": "Habit App",
       "description": "An app to help users build habits by tracking their progress towards rewards. Built with React.",
       "projurl": "https://habit-app-2020.herokuapp.com/",
-      "imgurl": "images/portfolio/starChart.png"
+      "imgurl": "images/portfolio/starChart_2.png"
     },
     {
       "name": "Sports Manager",
       "description": "An app to manage schools sports teams, their rosters and schedules.",
       "projurl": "https://pacific-peak-82509.herokuapp.com/",
-      "imgurl": "images/portfolio/SportsManager.png"
+      "imgurl": "images/portfolio/SportsManager_2.png"
     },
     {
       "name": "Hike & Dinner",
       "description": "An app that allows users to find a nearby hike and a place to grab a bite to eat close to the trailhead",
       "projurl": "https://benhcalvert.github.io/Group-Project/",
-      "imgurl": "images/portfolio/HikeandDinner.png"
+      "imgurl": "images/portfolio/HikeandDinner_2.png"
     },
     {
       "name": "Weather Dashboard",
       "description": "A weather dashboard written in HTML and JavaScrpit",
       "projurl": "https://benhcalvert.github.io/HW6_Weather/",
-      "imgurl": "images/portfolio/WeatherDashboard.png"
+      "imgurl": "images/portfolio/WeatherDashboard_2.png"
+    },
+    {
+      "name": "React Weather Dashboard",
+      "description": "Another weather dashboard, this time in React using reactstrap. Uses the Weatherbit API for weather info and the Google Geocoding API to handle location info.",
+      "projurl": "https://benhcalvert.github.io/react-weather/",
+      "imgurl": "images/portfolio/ReactWeather.png"
     },
     {
       "name": "PWA Budget Tracker",
       "description": "A progressive web app budget tracker with offline functionality.",
       "projurl": "https://aqueous-island-57111.herokuapp.com/",
-      "imgurl": "images/portfolio/budgetPWA.png"
-    }
+      "imgurl": "images/portfolio/budgetPWA_2.png"
+    },
+    {
+      "name": "Github Profile - PDF Generator",
+      "description": "A command line application to generate a PDF profile from a github username using node.js",
+      "projurl": "https://github.com/BenHCalvert/DevProfileGen",
+      "imgurl": "images/portfolio/DevProfileGen.gif"
+    },
   ]
 }
 
