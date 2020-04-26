@@ -136,7 +136,7 @@ let resumeData = {
     {
       "name": "React Weather Dashboard",
       "description": "Another weather dashboard, this time in React using reactstrap. Uses the Weatherbit API for weather info and the Google Geocoding API to handle location info.",
-      "projurl": "https://benhcalvert.github.io/react-weather/",
+      "projurl": "https://react-weather-app2020.herokuapp.com/",
       "imgurl": "images/portfolio/ReactWeather.png",
       "repo": "https://github.com/BenHCalvert/react-weather"
     },
