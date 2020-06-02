@@ -3,6 +3,7 @@ let resumeData = {
   "name": "Ben Calvert",
   "role": "full stack web developer and middle school assistant principal",
   "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
+  "email": "benhcalvert@gmail.com",
   "roleDescription": "",
   "socialLinks": [
     {
