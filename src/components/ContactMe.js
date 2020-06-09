@@ -7,7 +7,7 @@ export default class ContactMe extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me on <a href={resumeData.linkedinId} target="blank"> LinkedIn</a> or send me an email at <a href={resumeData.email} target="blank"></a>.
+              Feel free to contact me on <a href={resumeData.linkedinId} target="blank"> LinkedIn</a> or send me an email at <a href={resumeData.email} target="blank">benhcalvert@gmail.com</a>
               </p>
             </div>
           </div>
