@@ -72,6 +72,12 @@ let resumeData = {
       "skillname": "CSS"
     },
     {
+      "skillname": "Docker"
+    },
+    {
+      "skillname": "Drupal"
+    },
+    {
       "skillname": "Express.JS"
     },
     {
@@ -100,6 +106,9 @@ let resumeData = {
     },
     {
       "skillname": "Progressive Web Apps"
+    },
+    {
+      "skillname": "Python"
     },
     {
       "skillname": "React"
