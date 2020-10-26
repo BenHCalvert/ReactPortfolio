@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl": "https://github.com/BenHCalvert",
   "name": "Ben Calvert",
-  "role": "full stack web developer and middle school assistant principal",
+  "role": "Full Stack Web Developer | K-12 education administration | CMO finance, operations & IT",
   "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
   "email": "mailto:benhcalvert@gmail.com",
   "roleDescription": "",
@@ -17,7 +17,7 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "I am a full stack web developer and a middle school assistant principal. This summer, I'm moving to Boise, ID and am currently in search of a job as a developer.",
+  "aboutme": "I am a full stack web developer and former middle school assistant principal with experience in school district finance, operations and IT. Currently in Boise, ID",
   "address": "Golden CO | Boise ID",
   "website": "https://github.com/BenHCalvert",
   "education": [
@@ -70,6 +70,9 @@ let resumeData = {
     },
     {
       "skillname": "CSS"
+    },
+    {
+      "skillname": "Cloudflare"
     },
     {
       "skillname": "Docker"
@@ -149,6 +152,13 @@ let resumeData = {
       "projurl": "https://react-weather-app2020.herokuapp.com/",
       "imgurl": "images/portfolio/ReactWeather.png",
       "repo": "https://github.com/BenHCalvert/react-weather"
+    },
+    {
+      "name": "Cloudflare Workers Linktree",
+      "description": "A Cloudflare Workers project that builds a linktree-style website by pulling links from a simple 'API'. You can go directly to the API response at the /links route.",
+      "projurl": "https://my-app.benhcalvert.workers.dev/",
+      "imgurl": "images/portfolio/cfworkers.png",
+      "repo": "https://github.com/BenHCalvert/CFProj"
     },
     {
       "name": "PWA Budget Tracker",
