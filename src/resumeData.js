@@ -1,10 +1,8 @@
 let resumeData = {
-  "imagebaseurl": "https://github.com/BenHCalvert",
   "name": "Ben Calvert",
   "role": "Full Stack Web Developer | K-12 education administration | CMO finance, operations & IT",
   "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
   "email": "mailto:benhcalvert@gmail.com",
-  "roleDescription": "",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -40,7 +38,7 @@ let resumeData = {
       "specialization": "Assistant Principal",
       "MonthOfLeaving": "Jun",
       "YearOfLeaving": "2020",
-      "MonthofStarting": "Jul",
+      "MonthOfStarting": "Jul",
       "YearOfStarting": "2018",
       "Achievements": "Co-Led a successful turn-around for a failing middle school (grades 6-8), marked by a 16-34% increase in student achievement on semester 1 Language Arts midterms, a 12% increase in positive responses from staff on the Workplace Quality Survey and a 75% decrease in student suspensions. Led a team of 6 employees and   oversaw scheduling and day-to-day events and activities for 33 teachers & staff"
     },
@@ -49,7 +47,7 @@ let resumeData = {
       "specialization": "Basecamp Manager",
       "MonthOfLeaving": "Jul",
       "YearOfLeaving": "2018",
-      "MonthofStarting": "Jul",
+      "MonthOfStarting": "Jul",
       "YearOfStarting": "2018",
       "Achievements": "Managed 12 basecamp staff members and held  responsibility for trip logistics, facilities, and equipment. Served as primary point of contact for emergency situations in the field"
     },
@@ -58,7 +56,7 @@ let resumeData = {
       "specialization": "School Start-up Project Manager, Head of Student Activities & Operations Manager",
       "MonthOfLeaving": "Nov",
       "YearOfLeaving": "2017",
-      "MonthofStarting": "Feb",
+      "MonthOfStarting": "Feb",
       "YearOfStarting": "2014",
       "Achievements": "Created and implemented facilities, food service, IT and other operational systems. Supervised facility and construction operations and created KIPP New Jersey’s AmeriCorps teaching residency "
     }
@@ -141,7 +139,7 @@ let resumeData = {
     },
     {
       "name": "Weather Dashboard",
-      "description": "A weather dashboard written in HTML and JavaScrpit",
+      "description": "A weather dashboard written in HTML and JavaScript",
       "projurl": "https://benhcalvert.github.io/HW6_Weather/",
       "imgurl": "images/portfolio/WeatherDashboard_2.png",
       "repo": "https://github.com/BenHCalvert/HW6_Weather"
@@ -177,4 +175,4 @@ let resumeData = {
   ]
 }
 
-export default resumeData
+export default resumeData;
