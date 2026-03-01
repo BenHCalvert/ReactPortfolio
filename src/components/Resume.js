@@ -38,7 +38,7 @@ const Resume = ({ resumeData }) => {
                   <h3>{item.CompanyName}</h3>
                   <p className="info">
                     {item.specialization}
-                    <span>&bull;</span> <em className="date">{item.MonthOfStarting} {item.YearOfStarting} - {item.MonthOfLeaving} {item.YearOfLeaving}</em>
+                    <span>&bull;</span> <em className="date">{item.MonthOfStarting} {item.YearOfStarting} - {item.YearOfLeaving ? `${item.MonthOfLeaving} ${item.YearOfLeaving}` : 'Present'}</em>
                   </p>
                   <p>{item.Achievements}</p>
                 </div>
@@ -50,7 +50,7 @@ const Resume = ({ resumeData }) => {
 
       <div className="row skill">
         <div className="three columns header-col">
-          <h1><span>Technical Skills</span></h1>
+          <h1><span>{resumeData.skillsDescription || 'Skills'}</span></h1>
         </div>
 
         <div className="nine columns main-col">
