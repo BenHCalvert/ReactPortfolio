@@ -79,7 +79,7 @@ let resumeData = {
       "Achievements": "Directed large-scale facility and construction projects for new site launches, managing vendors and timelines from initiation to delivery. Designed and launched an AmeriCorps teaching residency program, defining operational workflows and recruitment strategy from the ground up. Managed a $10M+ budget portfolio across Real Estate, CapEx, and IT infrastructure."
     }
   ],
-  "skillsDescription": "Product & Technical Skills",
+  "skillsDescription": "Skills",
   "skills": [
     { "skillname": "Agile/Scrum" },
     { "skillname": "ShapeUp" },

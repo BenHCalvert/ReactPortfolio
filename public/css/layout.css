@@ -250,6 +250,7 @@ ul#nav li.current a { color: #b06611; }
    letter-spacing: 1px;
 }
 #resume h1 span {
+   display: inline-block;
    border-bottom: 3px solid #119eb0;
    padding-bottom: 6px;
 }
