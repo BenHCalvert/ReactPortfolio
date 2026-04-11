@@ -1,7 +1,7 @@
 let resumeData = {
   "name": "Ben Calvert",
   "role": "Senior Product Manager",
-  "roleDescription": "I build products at the intersection of AI, data, and K-12 education — turning complex problems into scalable solutions that serve millions of families.",
+  "roleDescription": "I ship products that reach 20M+ families and make schools work better.",
   "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
   "email": "mailto:benhcalvert@gmail.com",
   "socialLinks": [
