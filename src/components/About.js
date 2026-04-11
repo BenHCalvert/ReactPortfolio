@@ -23,6 +23,15 @@ const About = ({ resumeData }) => {
                 <span>{resumeData.website}</span>
               </p>
             </div>
+            {resumeData.resumeDownload && (
+              <div className="columns download">
+                <p>
+                  <a href={`${process.env.PUBLIC_URL}/${resumeData.resumeDownload}`} className="button" download>
+                    <i className="fa fa-download"></i> Download Resume
+                  </a>
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>

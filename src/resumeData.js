@@ -4,6 +4,7 @@ let resumeData = {
   "roleDescription": "I ship products that reach 20M+ families and make schools work better.",
   "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
   "email": "mailto:benhcalvert@gmail.com",
+  "resumeDownload": "Ben_Calvert_Resume.pdf",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -16,7 +17,7 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "I'm a Senior Product Manager at ParentSquare, where I lead teams building the communication platform used by 20M+ families across U.S. school districts. I've shipped 0-to-1 products that quickly generated $1M+ in new ARR, pioneered an agentic AI product discovery process, and driven 70%+ reductions in support volume through better UX. Before product, I was an integration engineer and before that, I ran school operations . I think about problems from the code, the user, and the business all at once. Based in Boise, ID.",
+  "aboutme": "I'm a Senior Product Manager at ParentSquare, where I lead teams building the communication platform used by 20M+ families across U.S. school districts. I've shipped 0-to-1 products that quickly generated $1M+ in new ARR, pioneered an agentic AI product discovery process, and driven 70%+ reductions in support volume through better UX. Before product, I was an integration engineer and before that, I ran school operations. I think about problems from the code, the user, and the business all at once. Based in Boise, ID.",
   "address": "Boise, ID",
   "website": "https://github.com/BenHCalvert",
   "education": [
@@ -41,7 +42,11 @@ let resumeData = {
       "YearOfStarting": "2024",
       "MonthOfLeaving": "",
       "YearOfLeaving": "",
-      "Achievements": "Formed and led a team focused on platform integrations and admin user experience, reducing ticket volume by >70% across many support categories in our first year. Drive ongoing product discovery through qualitative user interviews and quantitative analytics to prioritize roadmap initiatives. Present product strategy and feature updates at user conferences and to our advisory council, with sessions ranging from 15 to 200+ attendees."
+      "Achievements": [
+        "Formed and led a team focused on platform integrations and admin user experience, reducing ticket volume by >70% across many support categories in our first year.",
+        "Drive ongoing product discovery through qualitative user interviews and quantitative analytics to prioritize roadmap initiatives.",
+        "Present product strategy and feature updates at user conferences and to our advisory council, with sessions ranging from 15 to 200+ attendees."
+      ]
     },
     {
       "CompanyName": "ParentSquare",
@@ -50,7 +55,10 @@ let resumeData = {
       "YearOfStarting": "2022",
       "MonthOfLeaving": "Jun",
       "YearOfLeaving": "2024",
-      "Achievements": "Led the end-to-end development and Go-to-Market strategy for Virtual Phone, generating $1M in new ARR within the first 20 months. Operationalized customer feedback channels through 1-on-1 interactions and product analytics to validate problems and solutions before development."
+      "Achievements": [
+        "Led the end-to-end development and Go-to-Market strategy for Virtual Phone, generating $1M in new ARR within the first 20 months.",
+        "Operationalized customer feedback channels through 1-on-1 interactions and product analytics to validate problems and solutions before development."
+      ]
     },
     {
       "CompanyName": "ParentSquare",
@@ -59,7 +67,11 @@ let resumeData = {
       "YearOfStarting": "2020",
       "MonthOfLeaving": "Oct",
       "YearOfLeaving": "2022",
-      "Achievements": "Built robust integrations with external EdTech data management platforms (SIS), ensuring seamless data interoperability across districts. Led the technology evaluation phase for high-value sales prospects as the technical subject matter expert. Optimized implementation workflows by providing technical training and process improvements to Customer Success teams."
+      "Achievements": [
+        "Built robust integrations with external EdTech data management platforms (SIS), ensuring seamless data interoperability across districts.",
+        "Led the technology evaluation phase for high-value sales prospects as the technical subject matter expert.",
+        "Optimized implementation workflows by providing technical training and process improvements to Customer Success teams."
+      ]
     },
     {
       "CompanyName": "STRIVE Prep - Sunnyside",
@@ -68,7 +80,11 @@ let resumeData = {
       "YearOfStarting": "2018",
       "MonthOfLeaving": "Jun",
       "YearOfLeaving": "2020",
-      "Achievements": "Co-led a successful middle school turnaround marked by a 16-34% increase in student achievement on semester 1 Language Arts midterms, a 12% increase in positive staff survey responses, and a 75% decrease in student suspensions. Directed cross-functional operations teams across Facilities, Tech, and Admin while managing budgets and resource allocation."
+      "Achievements": [
+        "Co-led a successful middle school turnaround marked by a 16-34% increase in student achievement on semester 1 Language Arts midterms.",
+        "Achieved a 12% increase in positive staff survey responses and a 75% decrease in student suspensions.",
+        "Directed cross-functional operations teams across Facilities, Tech, and Admin while managing budgets and resource allocation."
+      ]
     },
     {
       "CompanyName": "KIPP New Jersey",
@@ -77,7 +93,11 @@ let resumeData = {
       "YearOfStarting": "2014",
       "MonthOfLeaving": "Nov",
       "YearOfLeaving": "2017",
-      "Achievements": "Directed large-scale facility and construction projects for new site launches, managing vendors and timelines from initiation to delivery. Designed and launched an AmeriCorps teaching residency program, defining operational workflows and recruitment strategy from the ground up. Managed a $10M+ budget portfolio across Real Estate, CapEx, and IT infrastructure."
+      "Achievements": [
+        "Directed large-scale facility and construction projects for new site launches, managing vendors and timelines from initiation to delivery.",
+        "Designed and launched an AmeriCorps teaching residency program, defining operational workflows and recruitment strategy from the ground up.",
+        "Managed a $10M+ budget portfolio across Real Estate, CapEx, and IT infrastructure."
+      ]
     }
   ],
   "skillsDescription": "Skills",
@@ -100,22 +120,26 @@ let resumeData = {
     {
       "name": "Agentic Product Discovery",
       "description": "Designed and implemented an AI-powered product discovery workflow using Claude to synthesize user research, support data, and usage analytics — accelerating insight generation and reducing discovery cycle time for the ParentSquare product team.",
-      "imgurl": "images/portfolio/agentic-discovery.png"
+      "icon": "\uD83E\uDD16",
+      "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
     },
     {
       "name": "Virtual Phone: 0-to-1 Launch",
       "description": "Led end-to-end product development and GTM for ParentSquare's Virtual Phone product — from discovery through launch — generating $1M+ in new ARR within 20 months.",
-      "imgurl": "images/portfolio/virtual-phone.png"
+      "icon": "\uD83D\uDCF1",
+      "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
     },
     {
       "name": "Admin UX & Integrations Platform",
       "description": "Formed and led a new product team focused on platform integrations and admin experience, reducing support ticket volume by 70%+ across key categories in the first year.",
-      "imgurl": "images/portfolio/admin-ux.png"
+      "icon": "\uD83D\uDD27",
+      "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
     },
     {
       "name": "EdTech Data Integrations",
       "description": "Architected integrations with SIS platforms serving hundreds of school districts, ensuring seamless data interoperability and streamlining district onboarding as an integration engineer turned PM.",
-      "imgurl": "images/portfolio/data-integrations.png"
+      "icon": "\uD83D\uDD17",
+      "gradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)"
     }
   ]
 }
