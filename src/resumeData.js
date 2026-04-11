@@ -1,6 +1,7 @@
 let resumeData = {
   "name": "Ben Calvert",
   "role": "Senior Product Manager",
+  "roleDescription": "I build products at the intersection of AI, data, and K-12 education — turning complex problems into scalable solutions that serve millions of families.",
   "linkedinId": "https://linkedin.com/in/benjamin-calvert-62978438/",
   "email": "mailto:benhcalvert@gmail.com",
   "socialLinks": [
@@ -15,7 +16,7 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "Data-driven Senior Product Manager with a background in full-stack engineering and K-12 education operations. I specialize in bridging the gap between technical requirements and user experience — having worked as both an engineer and a PM at ParentSquare, an EdTech platform serving K-12 schools nationwide. Proven track record of launching 0-to-1 products and leading cross-functional teams to reduce support volume and COGS. Based in Boise, ID.",
+  "aboutme": "I'm a Senior Product Manager at ParentSquare, where I lead teams building the communication platform used by 20M+ families across U.S. school districts. I've shipped 0-to-1 products that quickly generated $1M+ in new ARR, pioneered an agentic AI product discovery process, and driven 70%+ reductions in support volume through better UX. Before product, I was an integration engineer and before that, I ran school operations . I think about problems from the code, the user, and the business all at once. Based in Boise, ID.",
   "address": "Boise, ID",
   "website": "https://github.com/BenHCalvert",
   "education": [
@@ -81,50 +82,40 @@ let resumeData = {
   ],
   "skillsDescription": "Skills",
   "skills": [
-    { "skillname": "Agile/Scrum" },
-    { "skillname": "ShapeUp" },
+    { "skillname": "AI/LLM Product Development" },
+    { "skillname": "0-to-1 Product Launches" },
+    { "skillname": "Product Analytics" },
     { "skillname": "User Research" },
+    { "skillname": "Go-to-Market Strategy" },
+    { "skillname": "Agile/Scrum" },
     { "skillname": "Figma" },
     { "skillname": "Pendo" },
     { "skillname": "Jira" },
-    { "skillname": "Notion" },
-    { "skillname": "GTM" },
+    { "skillname": "SQL" },
+    { "skillname": "Claude / Anthropic" },
     { "skillname": "JavaScript" },
-    { "skillname": "HTML" },
-    { "skillname": "MySQL" },
-    { "skillname": "AWS" },
-    { "skillname": "GitHub" },
-    { "skillname": "Ruby on Rails" },
-    { "skillname": "Cloudflare" }
+    { "skillname": "API & Data Integrations" }
   ],
   "portfolio": [
     {
-      "name": "Cloudflare Workers Linktree",
-      "description": "A serverless edge computing project built on Cloudflare Workers that serves a dynamic linktree-style page by fetching links from a JSON API endpoint.",
-      "projurl": "https://my-app.benhcalvert.workers.dev/",
-      "imgurl": "images/portfolio/cfworkers.png",
-      "repo": "https://github.com/BenHCalvert/CFProj"
+      "name": "Agentic Product Discovery",
+      "description": "Designed and implemented an AI-powered product discovery workflow using Claude to synthesize user research, support data, and usage analytics — accelerating insight generation and reducing discovery cycle time for the ParentSquare product team.",
+      "imgurl": "images/portfolio/agentic-discovery.png"
     },
     {
-      "name": "Hike & Dinner",
-      "description": "A JavaScript app that helps users find a nearby hike and a restaurant close to the trailhead, using the Google Maps and Yelp APIs.",
-      "projurl": "https://benhcalvert.github.io/Group-Project/",
-      "imgurl": "images/portfolio/HikeandDinner_2.png",
-      "repo": "https://github.com/BenHCalvert/Group-Project"
+      "name": "Virtual Phone: 0-to-1 Launch",
+      "description": "Led end-to-end product development and GTM for ParentSquare's Virtual Phone product — from discovery through launch — generating $1M+ in new ARR within 20 months.",
+      "imgurl": "images/portfolio/virtual-phone.png"
     },
     {
-      "name": "Weather Dashboard",
-      "description": "A weather dashboard with 5-day forecast built with vanilla JavaScript and the OpenWeather API.",
-      "projurl": "https://benhcalvert.github.io/HW6_Weather/",
-      "imgurl": "images/portfolio/WeatherDashboard_2.png",
-      "repo": "https://github.com/BenHCalvert/HW6_Weather"
+      "name": "Admin UX & Integrations Platform",
+      "description": "Formed and led a new product team focused on platform integrations and admin experience, reducing support ticket volume by 70%+ across key categories in the first year.",
+      "imgurl": "images/portfolio/admin-ux.png"
     },
     {
-      "name": "GitHub Profile PDF Generator",
-      "description": "A Node.js command line tool that generates a formatted PDF profile card from any GitHub username.",
-      "projurl": "https://github.com/BenHCalvert/DevProfileGen",
-      "imgurl": "images/portfolio/DevProfileGen.gif",
-      "repo": "https://github.com/BenHCalvert/DevProfileGen"
+      "name": "EdTech Data Integrations",
+      "description": "Architected integrations with SIS platforms serving hundreds of school districts, ensuring seamless data interoperability and streamlining district onboarding as an integration engineer turned PM.",
+      "imgurl": "images/portfolio/data-integrations.png"
     }
   ]
 }
