@@ -40,7 +40,13 @@ const Resume = ({ resumeData }) => {
                     {item.specialization}
                     <span>&bull;</span> <em className="date">{item.MonthOfStarting} {item.YearOfStarting} - {item.YearOfLeaving ? `${item.MonthOfLeaving} ${item.YearOfLeaving}` : 'Present'}</em>
                   </p>
-                  <p>{item.Achievements}</p>
+                  {Array.isArray(item.Achievements) ? (
+                    <ul className="disc">
+                      {item.Achievements.map((a, i) => <li key={i}>{a}</li>)}
+                    </ul>
+                  ) : (
+                    <p>{item.Achievements}</p>
+                  )}
                 </div>
               </div>
             ))
@@ -54,16 +60,12 @@ const Resume = ({ resumeData }) => {
         </div>
 
         <div className="nine columns main-col">
-          <div className="bars">
-            <ul className="skills">
-              {
-                resumeData.skills && resumeData.skills.map((item) => (
-                  <li key={item.skillname}>
-                    <span className={` ${item.skillname.toLowerCase()}`}></span><em>{item.skillname}</em>
-                  </li>
-                ))
-              }
-            </ul>
+          <div className="skill-tags">
+            {
+              resumeData.skills && resumeData.skills.map((item) => (
+                <span key={item.skillname} className="skill-tag">{item.skillname}</span>
+              ))
+            }
           </div>
         </div>
       </div>

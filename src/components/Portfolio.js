@@ -11,19 +11,12 @@ const Portfolio = ({ resumeData }) => {
               resumeData.portfolio && resumeData.portfolio.map((item) => (
                 <div key={item.name} className="columns portfolio-item">
                   <div className="item-wrap">
-                    {item.projurl ? (
-                      <a href={item.projurl} target="_blank" rel="noopener noreferrer">
-                        <img src={`${process.env.PUBLIC_URL}/${item.imgurl}`} className="item-img" alt={item.name} />
-                      </a>
-                    ) : (
-                      <img src={`${process.env.PUBLIC_URL}/${item.imgurl}`} className="item-img" alt={item.name} />
-                    )}
-                    <div className="overlay">
-                      <div className="portfolio-item-meta" style={{ display: 'block' }}>
-                        <h5>{item.name}</h5>
-                        <p>{item.description}</p>
-                      </div>
-                      {item.repo && <p><a href={item.repo} target="_blank" rel="noopener noreferrer">Github Repository</a></p>}
+                    <div className="portfolio-card-hero" style={{ background: item.gradient }}>
+                      <span className="portfolio-card-icon">{item.icon}</span>
+                    </div>
+                    <div className="portfolio-card-text">
+                      <h5>{item.name}</h5>
+                      <p>{item.description}</p>
                     </div>
                   </div>
                 </div>
